@@ -20,7 +20,7 @@ $css=preg_replace(
     $css
 );
 
-// output de CSS code minified, or you may want to put it back in a CSS file
+// output minified CSS code, or you may want to put it back in a CSS file
 echo $css;
 
 ?>
