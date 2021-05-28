@@ -2,7 +2,7 @@
 
 /**
  * cssMinify
- *
+ * A PHP function to minify CSS code
  * Usage : cssMinify(<file> [, $returncode] [, $verbose] [, $suffix])
  * 
  * @param  string $file : CSS file
