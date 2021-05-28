@@ -7,3 +7,4 @@ Some functions I made by the time ...
   *Usage* : cssMinify(<file> [, $returncode] [, $verbose] [, $suffix])
  
   *Example* : echo cssMinify('style.css', FALSE, TRUE);
+
