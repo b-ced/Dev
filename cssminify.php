@@ -45,7 +45,14 @@ function cssMinify(string $file, bool $returncode = FALSE, bool $verbose = FALSE
 
     // Output some informations
     if ($verbose) {
-        printf('cssMinify - input file : %s (%d), output file : %s (%d) => %d bytes removed', $file, $verb, $out, strlen($css), ($verb - strlen($css)));
+        printf(
+            "cssMinify - input file : %s (%d), output file : %s (%d) => %d bytes removed\n",
+            $file,
+            $verb,
+            ($returncode ? 'code returned' : $out),
+            strlen($css),
+            ($verb - strlen($css))
+        );
     }
     if ($returncode) {
         //  Do we return the code ?
@@ -55,5 +62,6 @@ function cssMinify(string $file, bool $returncode = FALSE, bool $verbose = FALSE
         file_put_contents($out, $css);
     }
 }
+
 
 ?>
