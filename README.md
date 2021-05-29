@@ -2,7 +2,7 @@
 
 Some functions I made by the time ...
 
-**cssMinify**
+**cssMinify**, a snippet that removes extra characters in a CSS file in order to speed up loading time
 
   *Usage* : cssMinify(<file> [, $returncode] [, $verbose] [, $suffix])
  
